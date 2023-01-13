@@ -1,0 +1,170 @@
+/* header */
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 90px;
+
+}
+.logo{
+    padding:0px 100px ;
+
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+.nav li{
+    display: flex;
+    margin: 20px;
+  
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----------- banner---------- */
+
+.banner{
+    display: flex;
+    margin: 50px 350px;
+}
+.banner-header{
+    margin: 20px ;
+       
+}
+.banner-title{
+    font-size:45px ;
+    font-weight: 300px;
+}
+.banner-detail{
+    font: size 20px; ;
+    font-weight: 300px;
+
+}
+.radious{
+    background-color: lightcoral;
+    border: 2px solid lightcoral;
+    color: white;
+    width: 150px;
+    /* height: 40px; */
+    border-radius: 25px;
+    text-align: center;
+    /* padding: 10px 30px;
+   */
+}
+.banner-img{
+    
+    background-color:#CBC3E3;
+    border-radius: 250px;
+
+}
+/* ---------brands--------- */
+.brands{
+    margin: 20px auto;
+    width: 900px;
+    border: 1px  #CCC solid;
+    height: 200px;
+
+
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    box-shadow: 
+    inset 0px 11px 8px -10px #CCC,
+    inset 0px -11px 8px -10px #CCC; 
+}
+
+/*------------ photo-collection--------- */
+
+.main-header{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.gallerys{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+    
+}
+.gallery-banner{
+    padding-top: 10px;
+}
+.gallery-shifting{
+    color: lightslategray;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color:#858072;
+}
+/*-------------- see more------------- */
+
+.see-more{
+    color: palevioletred;
+   position: absolute bottom right;
+}
+
+/* - featured Products  */
+
+.featured{
+    display: flex;
+    padding: 40px;
+    margin: 50px 150px;
+    align-items: center;
+    justify-content: center;
+}
+.featured-img{
+
+}
+.featured-header{
+    margin: 40px 100px;
+
+}
+.featured-title{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.fearured-detail{
+    margin-bottom: 10px;
+
+}
+.square{
+    background-color: palevioletred;
+    border: 2px solid lightcoral;
+    align-items: center;
+    color: white;
+    width: 90px;
+
+}
+/* footer */
+
+.footer{
+    background-color: black;
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.icon{
+    padding: 5px;
+}
